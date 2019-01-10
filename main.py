@@ -419,11 +419,11 @@ plt.rcParams['animation.ffmpeg_path'] = u'/usr/bin/ffmpeg'
 
 """
 This cell will compile the frames that should have been saved during training
-into an animation.  This required ffmpeg to be installed.
+into an animation. 
 
 If the main portion wasn't modified, this will have saved frames from every
 25,000 episodes.  In the animation, you should see it start off performing poorly,
-but as it progresses it should perform optimally.
+but as it progresses it will perform optimally.
 """
 
 fig, ax = plt.subplots()
