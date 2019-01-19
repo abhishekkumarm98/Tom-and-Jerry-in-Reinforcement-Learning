@@ -145,7 +145,7 @@ This runs the environment using random actions
 """
 
 print('Setting up environment')
-env = Environment(5)
+env = Environment(6)
 num_episodes = 1 # number of games we want the agent to play
 env.reset()
 frames = []
